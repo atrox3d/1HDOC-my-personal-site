@@ -13,7 +13,7 @@ def hello():
 
 @app.route("/")
 def home():
-    return render_template("robb.html")
+    return render_template("cv/robb.html")
 
 
 if __name__ == "__main__":
